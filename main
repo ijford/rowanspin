@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Spinning Image</title>
+  <style>
+    .spinner {
+      animation: spin 2s linear infinite;
+      width: 200px; /* Adjust size as needed */
+      height: auto;
+    }
+
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Spinning Image Example</h2>
+  <img src="your-image.jpg" alt="Spinning" class="spinner">
+
+</body>
+</html>

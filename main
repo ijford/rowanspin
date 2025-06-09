@@ -19,7 +19,7 @@
 <body>
 
   <h2>Spinning Image Example</h2>
-  <img src="your-image.jpg" alt="Spinning" class="spinner">
+  <img src="rowan.png" alt="Spinning" class="spinner">
 
 </body>
 </html>
